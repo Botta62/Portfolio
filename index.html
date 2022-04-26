@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lautaro Botta</title>
+    <link rel='stylesheet' href='css/style.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/52e37338b5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='js/main.js' defer></script>
+</head>
+<body class="body">
+    <div class="layout container-fluid pt-2">
+        <!-- Header -->
+        
+        <nav id='header' class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+              <a id="inicio" class="navbar-brand" href="#">Inicio</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a id="sobreMi" class="sobreMi nav-link active" aria-current="page" href="#">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="proyectos" class="nav-link active" aria-current="page" href="#">Proyectos</a>
+                  </li>           
+                  <li class="nav-item">
+                    <a id="contacto" class="nav-link active" aria-current="page" href="#">Contacto</a>
+                  </li>   
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+        <!--Body-->
+
+        <!-- Presentation -->
+        <section class="presentation pt-3 container-fluid flex">          
+            <figure class="figure">
+                <img src="./img/pic-3.0.png" alt="Profile-pic" class="img-fluid ">
+            </figure> 
+
+            <article class="presentation__text pb-1">
+                <h3 class='presentation__text-title'>Hola, soy Lautaro Botta</h3>
+                <p>
+                  Estudiante de licenciatura en informática en la univerisdad de la plata y desarrollador web.
+                </p>
+            </article>            
+        </section>
+
+        <!-- About me-->
+        
+        <article class="aboutme container-xxl">
+
+
+
+            <p>
+              Me ha gustado la tecnologia desde chico pero jamas me habia dedicado a trabajar en ella y a mediados del año 2021
+              decidí incursionar en el mundo del
+              desarrollo web de forma profesional, comencé
+              aprendiendo de forma autodidacta
+              html y css y javascript. Realice
+              proyectos utilizando html, bootstrap y css, y hoy en día me
+              encuentro aprendiendo React, para
+              insertarme en el mercado laboral.
+            </p>
+        </article>
+
+        <!-- Proyects -->
+
+        <article class="container-sm">
+          <div class="row">            
+              <div class="card">
+                <img src="./img/heladeria.jpg" class="card-img-top mt-3 card" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Heladeria</h5>
+                  <p class="card-text">Una pagina estatica utilizando HTML5 y CSS3 de una heladeria donde presenta el lugar, contacto y una seccion con
+                    sabores.
+                  </p>
+                  <a href="https://botta62.github.io/Ice-Cream-Store/" target="blank" class="btn btn-secondary">Ver página</a>
+                  <a href="https://github.com/Botta62/Ice-Cream-Store" target="blank" class="btn btn-secondary">Ver codigo</a>
+                </div>
+              </div>
+
+        </article>
+
+        
+        <!-- Contact me-->
+
+        <section class="contact-container container">
+            <div class="container">
+              <div class="row">                
+                 <div class="col abc">
+                  <a class='display-1 mirasoyunboton'  target='blank' href="https://www.linkedin.com/in/botta62/"><i class="fab fa-linkedin"></i></a>                  
+                </div>
+                <div class="col">
+                  <a class='display-1'  target='blank' href="https://github.com/Botta62"><i class="fab fa-github"></i></a>
+                </div>
+                <div class="col">
+                  <a class='display-1'  target='blank' href="https://twitter.com/Botta62"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="col">
+                  <a class='display-1' target='blank' href="form.html"><i class="fas fa-envelope"></i></a>
+                </div>               
+              </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="container">
+
+          <div class="info"></div>
+            <div class="footer__nav">
+                <div id="go-up" class="footer__nav-button">
+                  <p>Inicio</p>
+                </div> 
+                <div id="sobreMi2" class="footer__nav-button">
+                  <p>Sobre mi</p>
+                </div> 
+                <div id="proyectos2" class="footer__nav-button">
+                  <p>Proyectos</p>
+                </div>                
+                 <div id="contacto" class="footer__nav-button">
+                    <a href="assets/Cv-2022.pdf" download="Cv-2022.pdf"><p>Descargar CV</p></a>
+                </div>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+
+</body>
+</html>

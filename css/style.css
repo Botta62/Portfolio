@@ -1,0 +1,106 @@
+*{
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.body{
+    background-color: #000;
+}
+
+i{
+    color: #fff;
+}
+
+
+i:hover{
+    color:#000
+}
+
+.layout{
+    background-color: rgba(32, 30, 30, 0.583);
+    height: 100%;
+    padding-bottom: 4vh;
+    margin-left: 1vh;
+}
+
+
+.navbar{
+    border-radius: 11px;   
+    background: #fff;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+    font-size: 2vh;
+}
+
+.card-img{
+    object-fit:cover;
+    height: 45vh;
+}
+
+.presentation{
+    margin-top: 10%;
+    display: flex;           
+}
+
+.presentation__text-title{
+    color:#fff;
+    font-size: 5vh;
+}
+
+.presentation__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(241, 245, 0, 0);
+    color: rgba(255, 255, 255, 0.945);
+    padding-left: 1%; 
+    font-size: 2vh;    
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 11%;
+    margin: 5%;
+    border-radius: 11px;
+    /*background-color: #6C757D;    */
+    background: #fff;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.aboutme p{
+    letter-spacing: .3vh;    
+    font-weight:900;
+    font-size: 2.6vh;
+    color: #000;    
+}
+
+.contact-container{    
+    margin: 5vh;
+    padding-left: 10% !important;
+}
+
+.contact{  
+    height: 10vh;
+}
+
+.footer__nav-button:hover{
+    cursor: pointer;    
+}
+
+footer p{
+    color:#fff;
+    font-weight: bold;    
+}
+
+footer a{
+    text-decoration: none;
+}
